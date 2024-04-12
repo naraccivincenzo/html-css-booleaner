@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../img/pattern.png);
+    background-size: 40%;
+    background-color: #9CD6F4;
+    padding: 3%;
+}
+
+#logo {
+    width: 20%;
+    padding: 2% 0 0 7%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+#title {
+    padding-top: 3%;
+}
+
+.author,
+.who,
+.date {
+    font-size: 12px;
+    color: gray;
+}
+
+.author {
+    color: #9cccff;
+}
+
+.date {
+    font-size: 9px;
+    padding-bottom: 3%;
+    ;
+}
+
+.photo {
+    height: 220px;
+}
+
+.caption {
+    font-size: 9px;
+}
+
+.text {
+    padding-top: 3%;
+    font-size: 12px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.list {
+    padding: 3% 0 3% 2%;
+}
+
+#table {
+    width: 100%;
+    text-align: left;
+}
+
+.heading {
+    background-color: #7fa6fb;
+    color: white;
+}
+
+.column {
+    width: 50%;
+}
+
+.row {
+    background-color: #dfe5f2;
+}
+
+footer {
+    background-color: #313a6b;
+    background-size: 50%;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+#logo2 {
+    height: 100%;
+    float: right;
+}
