@@ -1,9 +1,11 @@
+/* init setup */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* header */
 header {
     background: url(../img/pattern.png);
     background-size: 40%;
@@ -16,12 +18,19 @@ header {
     padding: 2% 0 0 7%;
 }
 
+/* body */
 .container {
     width: 80%;
     margin: auto;
     margin-bottom: 3%;
 }
 
+/* generics */
+.list {
+    padding: 3% 0 3% 2%;
+}
+
+/* authors */
 #title {
     padding-top: 3%;
 }
@@ -43,6 +52,7 @@ header {
     ;
 }
 
+/* pics and description */
 .photo {
     height: 220px;
 }
@@ -51,6 +61,7 @@ header {
     font-size: 9px;
 }
 
+/* articles */
 .text {
     padding-top: 3%;
     font-size: 12px;
@@ -60,10 +71,7 @@ header {
     background-color: yellow;
 }
 
-.list {
-    padding: 3% 0 3% 2%;
-}
-
+/* table */
 #table {
     width: 100%;
     text-align: left;
@@ -82,6 +90,7 @@ header {
     background-color: #dfe5f2;
 }
 
+/* footer */
 footer {
     background-color: #313a6b;
     background-size: 50%;
@@ -92,7 +101,7 @@ footer {
     font-size: 12px;
 }
 
-#logo2 {
+#logo-footer {
     height: 100%;
     float: right;
 }
